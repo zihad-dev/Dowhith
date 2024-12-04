@@ -228,3 +228,164 @@ p {
   line-height: 150%;
 }
 /* ==========play css ends here======== */
+
+/* ==========about css starts here======== */
+#about {
+  background-color: #201353;
+  padding: 100px 0;
+}
+.about_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.about_left_top h2 {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 448px;
+  margin-bottom: 24px;
+}
+.about_left_top p {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  max-width: 434px;
+  margin-bottom: 64px;
+}
+.about_left_medel img {
+  width: 46px;
+  height: 38px;
+  color: #fff;
+  margin-bottom: 48px;
+}
+.about_left_buttom p {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  max-width: 489px;
+  margin-bottom: 46px;
+}
+.about_left_buttom h4 {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 48px;
+}
+.about_left_circle {
+  display: flex;
+  column-gap: 24px;
+}
+.about_circle_1 {
+  width: 64px;
+  height: 64px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+.about_circle_2 {
+  width: 64px;
+  height: 64px;
+  background-color: rgba(217, 217, 217, 0.75);
+  border-radius: 50%;
+}
+.about_circle_3 {
+  width: 64px;
+  height: 64px;
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 50%;
+}
+.about_circle_4 {
+  width: 64px;
+  height: 64px;
+  background-color: rgba(217, 217, 217, 0.25);
+  border-radius: 50%;
+}
+.about_circle_5 {
+  width: 64px;
+  height: 64px;
+  border: 1.5px solid rgba(255, 255, 255, 0.64);
+  background-color: #201353;
+  border-radius: 50%;
+  position: relative;
+}
+.about_circle_5 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about_right {
+  width: 600px;
+  height: 678px;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 64px 80px;
+}
+.about_box_head {
+  text-align: center;
+}
+.about_box_head img {
+  margin-bottom: 24px;
+}
+.about_box_head h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+.about_right_box form {
+  display: flex;
+  flex-direction: column;
+}
+.about_right_box form label {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+.about_right_box form input {
+  color: #848fac;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 14px 10px 14px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+.about_right_box form .input_two {
+  color: #848fac;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 14px 10px 42px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+.about_right_box form button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  display: flex;
+  width: 440px;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fc9770;
+}
+/* ==========about css ends here======== */
