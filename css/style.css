@@ -87,3 +87,62 @@ p {
   background-color: #fff;
 }
 /* ==========navber css ends here======== */
+
+/* ==========counter css starts here======== */
+#counter {
+  background-color: #201353;
+  padding-bottom: 32px;
+}
+.counter_wrapper {
+  padding-top: 522px;
+}
+.counter_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 48px;
+}
+.counter_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+  position: relative;
+}
+.counter_item:last-child::after {
+  background: transparent;
+}
+.counter_item::after {
+  content: "";
+  width: 2px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 50%;
+  right: -47px;
+  transform: translate(17px, -50%);
+}
+.counter_item .counter_number {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+}
+.counter_item .counter_pera {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: end;
+}
+.counter_item:first-child {
+  justify-content: start;
+}
+.counter_item:last-child {
+  justify-content: end;
+}
+/* ==========counter css ends here======== */
